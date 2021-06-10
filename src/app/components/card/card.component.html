@@ -1,0 +1,16 @@
+<div class="users-card ml-5 mt-4">
+    <p class="profile bold">Profile</p>
+    <div class="text-center mt-3">
+        <img class="photo animate__pulse" [src]="user.image" alt="">
+        <div class="m-3">
+            <button mat-raised-button color="primary" (click)="shwoUserDetails()">Details</button>
+        </div>
+    </div>
+    <div class="mt-4 information">
+        <p class="name"> {{ user?.name }} </p>
+        <p class="city mr-5"> {{ user?.address?.city }}</p>
+        <p class="mail mt-4"><span class="bold">Mail:</span> {{ user?.email }} </p>
+        <p class="phone"><span class="bold">Phone:</span> {{ user?.phone }} </p>
+        <p class="company"><span class="bold">Name of the company:</span> {{ user?.company?.name }} </p>
+    </div>
+</div>

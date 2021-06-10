@@ -1,0 +1,10 @@
+.container {
+    justify-content: center;
+    height: auto;
+    gap: 2rem;
+    display: flex;
+    flex-flow: wrap;
+    .card {
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,35 @@
+.users-card {
+    background-color: #EBDEF0;
+    border-radius: 10px;
+    height: 200px;
+    padding: 3rem;
+    width: 450px;
+    display: flex;
+    box-shadow: 5px 5px 2px grey;
+    .name {
+        font-size: 20px;
+    }
+}
+
+.photo {
+    width: 140px;
+    height: 120px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.profile {
+    margin-left: -25px;
+    margin-top: -25px;
+    color: #633974;
+}
+
+.city {
+    color: #808B96;
+    border-bottom: #ABB2B9 solid 1px;
+}
+
+.information {
+    text-align: left;
+    margin-left: 50px;
+}

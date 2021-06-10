@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "./assets/scss/spacing.scss";
+html {
+    height: 100%;
+    body {
+        height: 100%;
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+        background-color: #ECF0F1;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.dialogWhite {
+    .mat-dialog-container {
+        background-color: white;
+    }
+}

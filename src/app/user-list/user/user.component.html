@@ -1,0 +1,7 @@
+<div class="text-center mt-3">
+    <h2>Users List:</h2>
+    <app-search class="mt-4" (search)="searchUser($event)"></app-search>
+</div>
+<div class="container">
+    <app-card *ngFor="let user of users | search: filtroValor" [user]="user" class="card flex mt-4"></app-card>
+</div>
