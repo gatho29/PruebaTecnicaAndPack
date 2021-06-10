@@ -1,15 +1,15 @@
 <div class="users-card ml-3 mt-4">
     <p class="details bold">Details</p>
     <div class="text-center mt-5">
-        <img class="photo" [src]="data.image" alt="">
-        <p class="name mt-4"> {{ data.name}} </p>
+        <img class="photo" [src]="data?.image" alt="">
+        <p class="name mt-4"> {{ data?.name}} </p>
     </div>
     <div class="mt-4 info-details">
-        <p class="company"><span class="bold">Name of the company:</span> {{ data.company.name }} </p>
-        <p class="mail"><span class="bold">Mail:</span> {{ data.email }} </p>
-        <p class="city"><span class="bold">City:</span> {{ data.address?.city }} </p>
-        <p class="city"><span class="bold">Street:</span> {{ data.address.street }}</p>
-        <p class="city"><span class="bold">Zipcode:</span> {{ data.address.zipcode }}</p>
-        <p class="city"><span class="bold">Phone:</span> {{ data.phone }} </p>
+        <p class="company"><span class="bold">Name of the company:</span> {{ data?.company.name }} </p>
+        <p class="mail"><span class="bold">Mail:</span> {{ data?.email }} </p>
+        <p class="city"><span class="bold">City:</span> {{ data?.address?.city }} </p>
+        <p class="city"><span class="bold">Street:</span> {{ data?.address.street }}</p>
+        <p class="city"><span class="bold">Zipcode:</span> {{ data?.address?.zipcode }}</p>
+        <p class="city"><span class="bold">Phone:</span> {{ data?.phone }} </p>
     </div>
 </div>
